@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo {
+    background-color: #F3F3F3;
+    max-width: 414px;
+}
+
+main {
+    max-width: 414px;
+    height: 100%;
+    margin: 80px 0;
+}
+
+header {
+    width: 414px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 21px;
+    margin-bottom: 26px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header img {
+    width: 75px;
+    height: 53px;
+}
+
+header ion-icon {
+    font-size: 45px;
+    cursor: pointer;
+}
+
+footer {
+    width: 414px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer input {
+    font-size: 18px;
+    border: none;
+    border-color: transparent;
+    outline: none;
+}
+
+footer input::placeholder {
+    color: black;
+    font-style: italic;
+}
+
+footer ion-icon {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+strong {
+    font-weight: 700;
+}
+
+main ul {
+    gap: 4px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    word-break: break-all;
+    padding: 10px 8px;
+    margin-bottom: 4px;
+}
+
+.Horario {
+    color: #AAAAAA;
+}
+
+.Status {
+    background-color: #DCDCDC;
+}
+
+.MensagemPriv {
+    background-color: #FFDEDE;
+}
+
+.MensagemPub {
+    background-color: #ffffff;
+}
+
+@media (max-width: 414px) {
+
+header, footer {
+    width: 100%;
+}
+}
